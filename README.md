@@ -17,6 +17,6 @@ LEIN_PASSPHRASE
 
 ## License
 
-Copyright © 2013 Artem Kornienko
+Copyright © 2013 Aleksandr Balashov
 
 Distributed under the MIT License.
