@@ -10,8 +10,10 @@ LEIN_PASSPHRASE
 
 ## Usage
 
-:plugins [[s3-wagon-private "1.1.2"]]
+```clojure
+:plugins [[s3-wagon-private "1.1.2"]] 
 :dependencies [[loopme/log "0.1.1"]]
+```
 
 ## License
 
