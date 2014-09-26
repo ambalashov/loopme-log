@@ -60,7 +60,7 @@
   Usage: %X , %X{key}"
   [m]
   (doseq [e m]
-    (ThreadContext/put (name (key e)) (val e))))
+    (ThreadContext/put (name (key e)) (str (val e)))))
 
 (defn CONTEXT-CLEAR
   []

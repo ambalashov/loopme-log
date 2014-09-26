@@ -1,4 +1,4 @@
-(defproject loopme/log "0.1.2"
+(defproject loopme/log "0.1.3"
   :description "Naive clojure wrapper for Log4j2"
   :url "http://loopme.biz"
   :license {:name "Eclipse Public License"
