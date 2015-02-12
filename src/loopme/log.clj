@@ -66,6 +66,13 @@
   []
   (ThreadContext/clearMap))
 
+(defn GET-CONTEXT
+  ([]
+    (ThreadContext/getContext))
+  ([key]
+    (when key
+      (ThreadContext/get key))))
+
 (defmacro defnd [name doc args & body]
   "Push function name into Thread Context Stack.
   May be usefull for function call stack. Pattern %x"
